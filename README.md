@@ -1,7 +1,7 @@
 # bank_service
 bank service simulation
 
-API RESTful createde with nodejs and express js
+API RESTful created with nodejs and express js
 
 It uses as DataSource a MySQL database. The dump is included with the code: bank_service_dump.sql
 

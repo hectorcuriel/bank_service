@@ -63,7 +63,7 @@ CREATE TABLE `customeraccount` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `customer` int(11) NOT NULL,
   `accounttype` int(11) NOT NULL,
-  `balance` decimal(10,0) NOT NULL,
+  `balance` float NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `CUSTOMER_ACCOUNTTYPE` (`customer`,`accounttype`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
